@@ -327,12 +327,12 @@ Pre-Header and pre-header elements
 ***/
 .pre-header {
 	color: #616b76;
-	border-bottom: 1px solid #eee;
-	padding-top: 10px;
+	padding-top: 13px;
+  padding-bottom: 3px;
 	line-height: 1.2;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	background: #fff;
+	background: #f5f5f5;
 }
 .pre-header a {
 	color: #616b76;
@@ -343,10 +343,10 @@ Pre-Header and pre-header elements
 .pre-header a:focus {
 	text-decoration: none;
 }
-.pre-header li {
+.pre-header li {/*
 	padding-left: 11px;
 	padding-right: 15px;
-	border-right: solid 1px #d8d8d8;
+	border-right: solid 1px #d8d8d8;*/
 }
 .pre-header li:last-child {
 	border: none;
@@ -359,6 +359,7 @@ Pre-Header and pre-header elements
 }
 .pre-header .fa {
 	margin-right: 4px;
+
 }
 .shop-currencies a {
 	margin-right: 6px;
