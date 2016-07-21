@@ -16,15 +16,15 @@
         <%- partial('post/date', {class_name: 'archive-article-date', date_format: 'YYYY/MM/DD'}) %>
       </li>
       <li>
-	<i class="fa fa-tags"></i>
-	<%- partial('post/tag') %>
+        <i class="fa fa-tags"></i>
+        <%- partial('post/tag') %>
       </li>
     </ul>
     <div class="blog-item">
       <% if (index == true){ %>
-	<%- post.lede || post.excerpt || post.content %>
+        <%- post.lede || post.excerpt || post.content %>
       <% } else { %>
-	<%- post.lede || post.excerpt %>
+        <%- post.lede || post.excerpt %>
       <% } %>
     </div>
     <br>
