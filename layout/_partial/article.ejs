@@ -8,15 +8,23 @@
     <% if (post.link || post.title){ %>
     <header class="article-header">
       <ul class="blog-info">
-        <li><i class="fa fa-user"></i> <%- post.author || theme.default_author || "Anonymous" %></li>
-        <li><i class="fa fa-calendar"></i>
+        <li>
+          <i class="fa fa-user"></i>
+          <%- post.author || theme.default_author || "Anonymous" %>
+        </li>
+        <li class="hidden-xs">
+          <i class="fa fa-folder-open"></i>
+          <%- partial('_partial/post/category') %>
+        </li>
+        <li>
+          <i class="fa fa-calendar"></i>
           <%- partial('post/date', {class_name: 'archive-article-date', date_format: 'YYYY/MM/DD'}) %>
         </li>
-        <li class="hidden-xs"><i class="fa fa-tags"></i>
+        <li class="hidden-xs">
+          <i class="fa fa-tags"></i>
           <%- partial('post/tag') %>
         </li>
       </ul>
-      <%- partial('_partial/post/category') %>
     </header>
     <% } %>
     <div class="article-entry" itemprop="articleBody">
