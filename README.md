@@ -19,5 +19,5 @@ A instalação deste tema é feita em duas etapas:
 2. Configurar o valor de `theme:` para `ruby-tuesday-thme` no arquivo `_config.yml` no diretório root do site
 
   ```yml
-  	theme: corporate
+  	theme: ruby-tuesday-thme
   ```
