@@ -2490,7 +2490,7 @@ Demo Utils
   padding-top: 0;
 }
 .blog-posts p {
-  text-align: justify;
+  /*text-align: justify;*/
 }
 .blog-posts .carousel {
   margin-bottom: 0;
