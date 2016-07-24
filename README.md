@@ -16,8 +16,8 @@ A instalação deste tema é feita em duas etapas:
   git clone git@github.com:ramonsantos/ruby-tuesday-theme.git themes/ruby-tuesday-theme
   ```
   
-2. Configurar o valor de `theme:` para `ruby-tuesday-thme` no arquivo `_config.yml` no diretório root do site
+2. Configurar o valor de `theme:` para `ruby-tuesday-theme` no arquivo `_config.yml` no diretório root do site
 
   ```yml
-  	theme: ruby-tuesday-thme
+  	theme: ruby-tuesday-theme
   ```
