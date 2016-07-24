@@ -1687,10 +1687,11 @@ Pre-Footer and pre-footer elements
 
 /* footer */
 .footer {
-	background: #272626;
-	color: #fff;
-	font-size: 12px;
-	padding: 15px 0;
+  background: #EB4947;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 0;
 }
 .footer-light {
 	background: #F9F9F9;
@@ -1710,7 +1711,7 @@ Pre-Footer and pre-footer elements
 	color: inherit;
 }
 .footer .padding-top-10 {
-	opacity: 0.5;
+	opacity: 0.9;
 }
 .footer .list-inline > li:last-child {
 	padding-right: 0;
@@ -1724,7 +1725,7 @@ Pre-Footer and pre-footer elements
 	padding-top: 5px;
 }
 .footer ul.social-footer a {
-	opacity: 0.5;
+	opacity: 0.9;
 }
 .footer ul.social-footer a:hover {
 	opacity: 1;
@@ -2277,7 +2278,7 @@ Demo Utils
 	color: #3e4d5c;
 }
 .our-clients h2 a:hover {
-	color: #EB4947;
+	color: #00f;
 }
 .our-clients .client-item {
 	background: #f8f8f8;
