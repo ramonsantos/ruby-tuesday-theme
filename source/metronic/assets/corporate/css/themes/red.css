@@ -1,14 +1,14 @@
 a {
-	color: #E02222;
+	color: #EB4947;
 }
 a:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .pre-header a:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .shop-currencies a.current {
-	color: #E02222;
+	color: #EB4947;
 }
 .header-navigation ul > li.active > a,
 .header-navigation ul > li > a:hover,
@@ -16,48 +16,48 @@ a:hover {
 .header-navigation ul > li.open > a,
 .header-navigation ul > li.open > a:hover,
 .header-navigation ul > li.open > a:focus {
-	color: #e02222;
+	color: #EB4947;
 }
 .header-navigation li.menu-search i:hover {
-	color: #e02222;
+	color: #EB4947;
 }
 .sidebar a:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .sidebar .dropdown.open .dropdown-toggle:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .sidebar-menu .dropdown-menu li > a:hover, .sidebar-menu .dropdown-menu li > a:focus, .sidebar-menu li.active > a, .sidebar-menu li.active > a:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .content-page a:hover, 
 .sidebar2 a:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .content-page .link, .content-page .link:hover, .content-page .link:active {
-	color: #E02222;
+	color: #EB4947;
 }
 .page-404 .number,
 .page-500 .number {
-	color: #E02222;
+	color: #EB4947;
 }
 .content-form-page a:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .quote-v1 a.btn-transparent:hover {
-  background: #E02222;
+  background: #EB4947;
 }
 .recent-work h2 a:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .recent-work .recent-work-item .fa:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .our-clients h2 a:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .front-team h3 strong {
-  color: #E02222;
+  color: #EB4947;
 }
 .ecommerce .header-navigation ul > li.active > a,
 .ecommerce .header-navigation ul > li > a:hover,
@@ -65,13 +65,13 @@ a:hover {
 .ecommerce .header-navigation ul > li.open > a,
 .ecommerce .header-navigation ul > li.open > a:hover,
 .ecommerce .header-navigation ul > li.open > a:focus {
-	color: #e02222;
+	color: #EB4947;
 }
 .product-item h3 a:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 .checkout-page a:hover {
-	color: #E02222;
+	color: #EB4947;
 }
 
 
