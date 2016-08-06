@@ -10,8 +10,8 @@ excerpt_link: Read More
 fancybox: true # whether or not to load the fancybox library
 
 # Integrations
-disqus_shortname:
-google_analytics:
+disqus_shortname: ramon-santos
+google_analytics: UA-82053881-1
 swiftype_install_key:
 
 # Social
@@ -30,7 +30,7 @@ twitter_widget_id: "678830341331820544" # as a string, from https://twitter.com/
 twitter_username: ramonsantos_x # twitter username without the @
 default_author: Ramon Santos
 
-about: 
+about:
 phone:
 email: ramonsantos.pe@gmail.com
 address_1:
@@ -39,3 +39,5 @@ address_3:
 skype:
 lat:
 long:
+
+language: pt
