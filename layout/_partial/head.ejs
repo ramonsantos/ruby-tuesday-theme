@@ -36,9 +36,12 @@
     <link rel="icon" href="<%- theme.favicon %>">
   <% } %>
 
-  <meta content="{{ title }}" name="description">
-  <meta content="{{ title }}" name="keywords">
-  <meta content="{{ title }}" name="author">
+
+  <% if (title){ %> <%= title %> <% } %>
+
+  <meta content="<% if (title){ %> <%= title %> <% } %>" name="description">
+  <meta content="<% if (title){ %> <%= title %> <% } %>" name="keywords">
+  <meta content="<% if (title){ %> <%= title %> <% } %>" name="author">
 
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&amp;subset=latin" type="text/css" />
 
