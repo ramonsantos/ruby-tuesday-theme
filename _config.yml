@@ -11,7 +11,7 @@ fancybox: true # whether or not to load the fancybox library
 
 # Integrations
 disqus_shortname: ramon-santos
-google_analytics: UA-82053881-1
+google_analytics: AA-12345678-0
 swiftype_install_key:
 
 # Social
@@ -26,7 +26,7 @@ social:
 # Miscellaneous
 color_scheme: red   # options: blue, gray, green, orange, red, turquoise
 favicon: /favicon.ico # path from root of hexo site
-twitter_widget_id: "678830341331820544" # as a string, from https://twitter.com/settings/widgets
+twitter_widget_id: "123456789012345678" # as a string, from https://twitter.com/settings/widgets
 twitter_username: ramonsantos_x # twitter username without the @
 default_author: Ramon Santos
 
