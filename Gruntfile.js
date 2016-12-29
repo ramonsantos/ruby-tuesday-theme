@@ -5,11 +5,11 @@ module.exports = function( grunt ) {
     concat: {
       css: {
         src: [
-            'source/metronic/assets/corporate/css/style.css',
-            'source/metronic/assets/corporate/css/style-responsive.css',
-            'source/metronic/assets/corporate/css/custom.css',
-            'source/metronic/assets/corporate/css/themes/red.css',
-            'source/css/theme.css' ],
+            'source/css/_css/style.css',
+            'source/css/_css/style-responsive.css',
+            'source/css/_css/custom.css',
+            'source/css/_css/red.css',
+            'source/css/_css/_theme-styles.css' ],
         dest: 'source/css/css-full.css'
       },
 
@@ -21,14 +21,14 @@ module.exports = function( grunt ) {
             'source/js/_layout.js',
             'source/js/_back-to-top.js'
              ],
-        dest: 'source/js/js-full.min.js'
+        dest: 'source/js/js-full.js'
       }
     },
 
     stylus: {
       compile: {
         files: {
-          'source/css/theme.css': ['source/css/*.styl']
+          'source/css/_css/_theme-styles.css': ['source/css/*.styl']
         }
       }
     }
