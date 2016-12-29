@@ -2,27 +2,16 @@
 <!--[if lt IE 9]>
 <%- js('metronic/assets/plugins/respond.min.js') %>
 <![endif]-->
-<%- js('metronic/assets/plugins/jquery.min.js') %>
-<%- js('metronic/assets/plugins/jquery-migrate.min.js') %>
-<%- js('metronic/assets/plugins/bootstrap/js/bootstrap.min.js') %>
-<%- js('metronic/assets/corporate/scripts/back-to-top.js') %>
-<%- js('metronic/assets/plugins/owl.carousel/owl.carousel.min.js') %>
-<%- js('metronic/assets/corporate/scripts/layout.js') %>
-<%- js('js/wow.min.js') %>
 
-<% if (theme.fancybox){ %>
-  <%- css('fancybox/jquery.fancybox') %>
-  <%- js('fancybox/jquery.fancybox.pack') %>
-<% } %>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<%- js('metronic/assets/corporate/scripts/js-full.min.js') %>
 
 <script type="text/javascript">
   jQuery(document).ready(function() {
     Layout.init();
-    Layout.initOWL();
-    Layout.initTwitter();
     Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
     Layout.initNavScrolling();
-    new WOW().init();
   });
 </script>
 <!-- END CORE PLUGINS -->
@@ -74,6 +63,7 @@
 
     _st('install','<%= theme.swiftype_install_key %>','2.0.0');
   </script>
+
 <% } %>
 <%- partial('disqus') %>
 <%- partial('google-analytics') %>
