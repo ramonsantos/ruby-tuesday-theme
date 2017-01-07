@@ -65,6 +65,10 @@
   </script>
 
 <% } %>
-<%- partial('disqus') %>
+
+<% if (page.title != "Sobre"){ %>
+  <%- partial('disqus') %>
+<% } %>
+
 <%- partial('google-analytics') %>
 <!-- END INTEGRATIONS -->
