@@ -10,10 +10,6 @@ a:hover {
   color: #EB4947;
 }
 
-.shop-currencies a.current {
-  color: #EB4947;
-}
-
 .header-navigation ul>li.active>a, .header-navigation ul>li>a:hover, .header-navigation ul>li>a:focus, .header-navigation ul>li.open>a, .header-navigation ul>li.open>a:hover, .header-navigation ul>li.open>a:focus {
   color: #EB4947;
 }
@@ -46,16 +42,8 @@ a:hover {
   color: #EB4947;
 }
 
-.content-form-page a:hover {
-  color: #EB4947;
-}
-
 .front-team h3 strong {
   color: #EB4947;
-}
-
-.langs-block-others:after {
-  border-bottom: 8px solid #e6400c;
 }
 
 .header-navigation>ul>li.dropdown:hover>a:after {
@@ -88,24 +76,12 @@ a:hover {
   color: #e6400c;
 }
 
-.form-info h2 em {
-  color: #e6400c;
-}
-
 .nav-tabs {
   border-color: #e6400c;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
   background: #e6400c;
-}
-
-.content-search h1 em {
-  color: #e6400c;
-}
-
-.search-result-item h4 a {
-  color: #E6400C;
 }
 
 .goods-data a, .checkout-page .checkout-description a {
@@ -179,36 +155,12 @@ a:hover {
   color: #E84D1C;
 }
 
-.front-steps-wrapper .front-step1 {
-  background: #E84D1C;
-}
-
 .require {
   color: #e94d1c;
 }
 
-.content-form-page .form-control:focus {
-  border: solid 1px #e94d1c;
-}
-
-.content-search input:focus {
-  border: solid 1px #e94d1c;
-}
-
-.btn-primary {
-  background: #e94d1c;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #cc3304;
-}
-
 .header-navigation .dropdown-menu>li:first-child {
   border-top: 2px solid #EA4C1D;
-}
-
-.front-steps-wrapper .front-step1:after {
-  border-left: 15px solid #EC7049;
 }
 
 .del-goods:hover, .add-goods:hover {
@@ -238,18 +190,6 @@ a:hover {
   }
 }
 
-.faq-tabbable {
-  border-left: solid 2px #e44f00;
-}
-
-.faq-tabbable li:hover a, .faq-tabbable li.active a {
-  background: #e44f00;
-}
-
-.faq-tabbable li.active:after {
-  border-left: 6px solid #e44f00;
-}
-
 .mix-filter li:hover, .mix-filter li.active {
   background: #e44f00;
   color: #fff;
@@ -261,10 +201,6 @@ a:hover {
 
 .mix-grid .mix a.mix-link, .mix-grid .mix a.mix-preview {
   background: #DB3A1B;
-}
-
-.langs-block-others {
-  border-top: solid 2px #ea4c1d;
 }
 
 .header-navigation ul>li.active>a {

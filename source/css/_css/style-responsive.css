@@ -1,16 +1,6 @@
 /* BEGIN max width 1200px */
 
 @media (max-width: 1200px) {
-  .content-form-page .control-label {
-    padding-left: 30px;
-    padding-bottom: 5px;
-  }
-  .content-form-page .col-md-offset-4 {
-    margin-left: 15px;
-  }
-  .content-form-page .pull-right {
-    float: left !important;
-  }
 }
 
 
@@ -256,16 +246,10 @@
     margin-left: 0;
     margin-right: 10px;
   }
-  .brands .container {
-    padding-right: 25px;
-  }
+
   .sidebar-menu a:focus {
     color: #333 !important;
     text-decoration: none;
-  }
-  .new-arrivals___removed {
-    margin-left: 15px;
-    padding-left: 0;
   }
   .two-items-bottom-items {
     margin-bottom: 40px;
@@ -307,9 +291,6 @@
   .list-view-sorting .pull-right {
     margin-bottom: 10px;
   }
-  .content-search form {
-    margin: 0 0 6px;
-  }
 }
 
 
@@ -345,13 +326,6 @@
     padding-left: 0;
     margin-right: 5px;
   }
-  .form-info {
-    border-left: none;
-    padding-left: 0;
-    padding-top: 30px;
-    border-top: 1px solid #E4E6E8;
-    margin-bottom: 0;
-  }
   .list-view-sorting {
     /*background: #fff;*/
     margin-left: 0;
@@ -374,17 +348,6 @@
   }
   .tab-style-1 .tab-content img {
     margin: 5px 0 10px;
-  }
-  .front-steps-wrapper {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  .front-steps-wrapper .front-step-col {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .front-steps-wrapper .front-step:after {
-    display: none;
   }
   .blog-posts h2, .footer img {
     margin-bottom: 10px;
@@ -495,9 +458,6 @@
 @media (max-width: 320px) {
   .site-logo {
     margin-right: 0;
-  }
-  .content-form-page .btn-default {
-    margin-top: 10px;
   }
 }
 

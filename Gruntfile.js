@@ -2,6 +2,14 @@ module.exports = function( grunt ) {
 
   grunt.initConfig({
 
+    stylus: {
+      compile: {
+        files: {
+          'source/css/_css/_theme-styles.css': ['source/css/*.styl']
+        }
+      }
+    },
+    
     concat: {
       css: {
         src: [
@@ -23,15 +31,9 @@ module.exports = function( grunt ) {
              ],
         dest: 'source/js/js-full.js'
       }
-    },
-
-    stylus: {
-      compile: {
-        files: {
-          'source/css/_css/_theme-styles.css': ['source/css/*.styl']
-        }
-      }
     }
+
+
   });
 
   grunt.loadNpmTasks('grunt-contrib-stylus');
