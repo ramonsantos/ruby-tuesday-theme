@@ -11,23 +11,24 @@ fancybox: true # whether or not to load the fancybox library
 
 # Integrations
 disqus_shortname: ramon-santos
-google_analytics: AA-12345678-0
+google_analytics: UA-82053881-1
 swiftype_install_key:
 
 # Social
 social:
   github: https://github.com/ramonsantos
-  twitter: https://twitter.com/ramonsantos_x
+  twitter: https://twitter.com/ramonsantos_dev
   facebook: https://www.facebook.com/ramonsantos.dev
-  rss: atom.xml
+  slideshare: http://www.slideshare.net/RamonSantos28
+  google_plus: https://plus.google.com/+RamonSantosDev
   linkedin: https://br.linkedin.com/in/Ramon-Santos
   stackoverflow: http://pt.stackoverflow.com/users/38532/ramonsantos
+  rss: atom.xml
 
 # Miscellaneous
-color_scheme: red   # options: blue, gray, green, orange, red, turquoise
 favicon: /favicon.ico # path from root of hexo site
-twitter_widget_id: "123456789012345678" # as a string, from https://twitter.com/settings/widgets
-twitter_username: ramonsantos_x # twitter username without the @
+twitter_widget_id: "678830341331820544" # as a string, from https://twitter.com/settings/widgets
+twitter_username: ramonsantos_dev # twitter username without the @
 default_author: Ramon Santos
 
 about:
