@@ -7,51 +7,6 @@
   margin-bottom: 10px;
 }
 
-.painel-skill {
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  text-align: center;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #fff;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-}
-
-.quadro-superior {
-  box-sizing: border-box;
-  padding: 10px 15px;
-  text-align: center;
-  color: #333;
-  border-bottom: 1px solid #ddd;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  background-color: #f5f5f5;
-}
-
-.quadro-inferior {
-  box-sizing: border-box;
-  padding: 15px;
-  text-align: center;
-}
-
-.conteudo-skill {
-  font-size: 5em;
-  line-height: 2em;
-  position: relative;
-  display: inline-block;
-  box-sizing: border-box;
-  width: 2em;
-  height: 2em;
-  vertical-align: middle;
-  color: #333;
-}
-
-.img-skill {
-  display: inline;
-  vertical-align: middle;
-  border: 0;
-}
-
 .social-link {
   width: 15%;
   text-align: center;
